@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Encriptador Alura G4 Oracle Next Education">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Deivi Campos">
+    <title>Encriptador</title>
+    <link rel="icon" type="image/x-icon" href="src/ico.png">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./assets/style.css">
+
+</head>
+
+<body>
+    <main>
+        <div class="container-fluid py-5 m-0">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-md-8 row d-flex justify-content-center">
+                            <div class="col-md-12">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="src/Logo.png" alt="logoAlura" class="img-fluid py-3" id="logoAlura">
+                                    </div>
+                                    <div class="col-md-9 align-bottom">
+                                        <div id="alertSave" class="text-center">
+                                            <!-- acá va todo el contenido de los alert -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="col-md-12 py-3">
+                                    <h2 class="text-center text-light">Si desea puedes crear sus propias claves</h2>
+                                </div>
+                                <div class="col-md-12">
+                                    <form action="" class="" id="formValues">
+                                        <div class="input-group">
+                                            <input type="text" placeholder="Valor de a" class="form-control text-center">
+                                            <input type="text" placeholder="Valor de e" class="form-control text-center">
+                                            <input type="text" placeholder="Valor de i" class="form-control text-center">
+                                            <input type="text" placeholder="Valor de o" class="form-control text-center">
+                                            <input type="text" placeholder="Valor de u" class="form-control text-center">
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="col-md-12 row d-flex justify-content-center">
+                                <div class="col-md-6 p-3">
+                                    <button class="btn border-0 w-100 py-3" id="saveValues">Guardar</button>
+                                </div>
+                                <div class="col-md-6 p-3">
+                                    <button class="btn w-100 border-0 py-3" id="cleanValues">Restablecer</button>
+                                </div>
+                            </div>
+                            <div class="col-md-12 py-3">
+                                <div class="row d-flex justify-content-center">
+                                    <div class="col-md-5">
+                                        <textarea name="" id="textArea" class="form-control" placeholder="Ingrese el texto aquí por favor." rows="10"></textarea>
+                                    </div>
+                                    <div class="col-md-2 d-flex justify-content-center align-self-center py-3 row">
+                                        <button class="btn border-0 bgImage" id="btnImg"><img src="/src/lock.png" alt="logoChange" class="lock img-fluid" id="changeText"></button>
+                                        <button class="btn saveValues my-3" id="btnCopy">Copiar</button>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <textarea class="form-control" id="change" placeholder="Ningún mensaje encontrado 😓" rows="10" readonly></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 text-light">
+                                <h6 class="text-center">-Presione el candado para encriptar o desencriptar.</h6>
+                            </div>
+                        </div>
+                        <div class="col-md-4 d-flex justify-content-center align-self-center">
+                            <div class="card row text-center border-0">
+                                <div class="col-12 py-4">
+                                    <h2 class="card-title fs-4 text-light">¡Esconda sus mensajes!</h2>
+                                </div>
+                                <div class="col-md-12">
+                                    <img src="src/Muñeco.png" class="img-fluid py-5" alt="imagen de un muñeco">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="p-2">
+        <h6>#OracleNextEducation #helloONEG4</h6>
+    </footer>
+    <script src="./assets/main.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>

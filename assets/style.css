@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Combo&family=Comforter+Brush&family=Monoton&family=Roboto&family=Rubik+Dirt&family=Shadows+Into+Light&family=Uncial+Antiqua&display=swap');
+
+/* font-family: 'Caveat', cursive;
+font-family: 'Combo', cursive;
+font-family: 'Comforter Brush', cursive;
+font-family: 'Monoton', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Rubik Dirt', cursive;
+font-family: 'Shadows Into Light', cursive;
+font-family: 'Uncial Antiqua', cursive; */
+
+:root {
+    --background: #E5E5E5;
+    --buttons: rgba(82, 138, 243, 0.6);
+    --buttonsHover: rgba(34, 59, 105, 0.6);
+    --btnGreen: rgba(17, 207, 157, 0.6);
+    --btnGreenHover: rgba(9, 83, 63, 0.6);
+}
+
+body {
+    /* background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1024%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(40%2c 42%2c 43%2c 1)'%3e%3c/rect%3e%3cpath d='M729.7487956030867 227.36588663696227L684.0066355654437 321.15121308427655 777.7919620127581 366.89337312191947 823.534122050401 273.1080466746052z' fill='rgba(9%2c 189%2c 140%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M214.69508623810304 71.99238473258583L157.97214223490613-12.27596006535724 117.65890215481625 66.8432284267785z' fill='rgba(9%2c 189%2c 140%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M832.92 428.76 a168.68 168.68 0 1 0 337.36 0 a168.68 168.68 0 1 0 -337.36 0z' fill='rgba(9%2c 189%2c 140%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M750.42%2c345.479C793.284%2c342.388%2c822.908%2c306.426%2c842.646%2c268.252C860.506%2c233.71%2c865.597%2c193.406%2c846.595%2c159.479C827.175%2c124.806%2c790.16%2c103.289%2c750.42%2c103.589C711.18%2c103.885%2c678.325%2c128.149%2c656.729%2c160.913C632.145%2c198.211%2c611.648%2c243.619%2c631.868%2c283.452C653.505%2c326.076%2c702.743%2c348.917%2c750.42%2c345.479' fill='rgba(9%2c 189%2c 140%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1397.449%2c104.117C1428.863%2c104.502%2c1459.552%2c90.097%2c1475.06%2c62.776C1490.393%2c35.763%2c1485.758%2c2.849%2c1470.187%2c-24.027C1454.662%2c-50.826%2c1428.418%2c-70.844%2c1397.449%2c-71.188C1365.928%2c-71.538%2c1337.325%2c-53.142%2c1321.859%2c-25.674C1306.68%2c1.283%2c1307.497%2c34.178%2c1323.067%2c60.912C1338.533%2c87.468%2c1366.719%2c103.74%2c1397.449%2c104.117' fill='rgba(9%2c 189%2c 140%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M593.4970654216429 191.3288417744188L573.1483088144291 272.9432467957935 654.7627138358038 293.29200340300736 675.1114704430177 211.67759838163263z' fill='rgba(9%2c 189%2c 140%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1144.8326808708753 272.61882750288277L1072.5421940743913 202.80871587817947 1003.9722700355784 346.1495018852567z' fill='rgba(9%2c 189%2c 140%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M563.9957207155535 365.92906368943267L515.3291794136744 470.0356490205233 615.5426489457773 463.0280405823453z' fill='rgba(9%2c 189%2c 140%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1162.0118387740215 134.2427490550738L1106.3601080697217 100.80381569413316 1084.0275733804606 201.00087843105314z' fill='rgba(9%2c 189%2c 140%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M365.28 22.52 a116.7 116.7 0 1 0 233.4 0 a116.7 116.7 0 1 0 -233.4 0z' fill='rgba(9%2c 189%2c 140%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1024'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e"); */
+    background: #134E5E;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #71B280, #134E5E);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #71B280, #134E5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: var(--btnGreenHover);
+}
+
+#logoAlura{
+    background-color: #fff;
+    clip-path: circle(35px);
+    animation-name: girarImagen;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+#btnImg{
+    background-color: #fff;
+    clip-path: circle(30px);
+}
+
+@keyframes girarImagen {
+    0% {transform: scaleX(0);}
+    30% {transform: scaleX(1);}
+    70% {transform: scaleX(-1);}
+    100% {transform: scaleX(0);}
+}
+
+#saveValues, .saveValues{
+    color: white;
+    background-color: var(--buttons);
+}
+
+#cleanValues{
+    color: white;
+    background-color: var(--btnGreen);
+}
+
+.card{
+    background-color: var(--btnGreen);
+}
+
+#saveValues:hover{
+    color: white;
+    font-weight: bolder;
+    background-color: var(--buttonsHover);
+}
+
+.saveValues:hover{
+    color: white;
+    font-weight: bolder;
+    background-color: var(--buttonsHover);
+}
+
+#cleanValues:hover{
+    color: white;
+    font-weight: bolder;
+    background-color: var(--btnGreenHover);
+}
+
+textarea{
+    font-size: large;
+}
