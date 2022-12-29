@@ -66,7 +66,7 @@ function cleanValuesForm() {
         if (changeIcon.classList.contains('unlock')) {
             changeIcon.classList.remove("unlock");
             changeIcon.classList.add("lock");
-            changeIcon.setAttribute("src", "/src/lock.png");
+            changeIcon.setAttribute("src", "src/lock.png");
             btnImg.style.backgroundColor = "white"
         }
 
@@ -120,11 +120,11 @@ function changeSymbolText() {
 function changeImage() {
     if (changeIcon.classList.contains('lock')) {
         changeIcon.classList.remove('unlock');
-        changeIcon.setAttribute("src", "/src/lock.png");
+        changeIcon.setAttribute("src", "src/lock.png");
         btnImg.style.backgroundColor = "white";
     } else {
         changeIcon.classList.add('unlock');
-        changeIcon.setAttribute("src", "/src/unlock.png");
+        changeIcon.setAttribute("src", "src/unlock.png");
         btnImg.style.backgroundColor = "deepskyblue";
     }
 }
