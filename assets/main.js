@@ -55,7 +55,7 @@ function cleanValuesForm() {
     btnClean.addEventListener("click", () => {
 
         for (let index = 0; index < 5; index++) {
-            form.elements[index].value = array[index];
+            form.elements[index].value = "";
         }
 
         text.value = "";
